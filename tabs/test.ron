@@ -26,7 +26,7 @@
                             Major3nd,
                             Perfect5th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Simple(Whole),
                 )),// [2]
@@ -38,7 +38,7 @@
                             Minor3nd,
                             Perfect5th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Simple(Whole),
                 )),
@@ -103,6 +103,7 @@
                 Mark("Em"),// [2]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(0),
                             Some(0),
@@ -125,6 +126,7 @@
                 Mark("G"),// [4]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(0),
                             Some(0),

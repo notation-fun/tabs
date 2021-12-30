@@ -1,7 +1,7 @@
 #!/usr/bin/env rust-script
 //! ```cargo
 //! [dependencies]
-//! notation_tab = "0.3.0"
+//! notation_tab = "0.3.2"
 //! ```
 
 use notation_tab::prelude::*;
@@ -13,7 +13,7 @@ pub fn main() {
 pub fn new_tab() -> Tab {
     tab! {
         "c430733f-46c3-4db2-9685-a72c05027e62"
-        Meta: TabMeta::new(Key::G, Scale::Major, Signature::_4_4, Tempo::Bpm(60))
+        Meta: G Major 4 _4 60
         Tracks: [
             {chord Chord [
                 $duration = _1
