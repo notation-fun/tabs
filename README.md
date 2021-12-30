@@ -14,3 +14,6 @@ Add the new file into [src/main.rs](src/main.rs), then run `cargo run` in the pr
 
 For easier update individual tab, can install [rust-script](https://github.com/fornwall/rust-script), then can compile individual tab directly.
 
+## Load tab source to viewer
+
+Notation viewer's desktop version support loading the tab source file (e.g. test.rs) directly, there is a hidden requirement for this to work, the last statement in the file has to be the function to return Tab, check `src/test.rs` for an working example.
